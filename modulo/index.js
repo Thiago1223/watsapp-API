@@ -1,12 +1,12 @@
 const jsonContatos = require('./contatos.js')
 
-const getPerfil = (id) => {
+const getPerfilId = (id) => {
 
     let jsonPerfil = {}
     let status = false
 
     jsonContatos.contatos["whats-users"].forEach(contatosDados => {
-        if (contatosDados.id == id || contatosDados.number == id) {
+        if (contatosDados.id == id) {
             jsonPerfil.contacts = contatosDados.contacts
             status = true
         }
@@ -20,6 +20,27 @@ const getPerfil = (id) => {
     
 }
 
+const getPerfilTelefone = (telefone) => {
+
+    let jsonPerfil = {}
+    let status = false
+
+    jsonContatos.contatos["whats-users"].forEach(contatosDados => {
+        if (contatosDados.number == telefone) {
+            jsonPerfil.contacts = contatosDados.contacts
+            status = true
+        }
+    })
+
+    if (status == true) {
+        return console.log(jsonPerfil)
+    } else {
+        return status
+    }
+    
+}
+
 module.exports = {
-    getPerfil
+    getPerfilId,
+    getPerfilTelefone
 }
