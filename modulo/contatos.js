@@ -219,7 +219,7 @@ const contatos = { "whats-users" :
                                           {
                                             "name": "José Maria da Silva",
                                             "description": "Developer",
-                                            "image": "img/contact10.png",
+                                            "image": "img/contact3.png",
                                             "messages": [
                                               {
                                                 "sender": "me",
@@ -246,7 +246,7 @@ const contatos = { "whats-users" :
                                           {
                                             "name": "John Guttemberg",
                                             "description": "Free",
-                                            "image": "img/contact20.png",
+                                            "image": "img/contact7.png",
                                             "messages": [
                                               {
                                                 "sender": "me",
@@ -273,7 +273,7 @@ const contatos = { "whats-users" :
                                           {
                                             "name": "George Mikael",
                                             "description": "Backend Developer",
-                                            "image": "img/contact30.png",
+                                            "image": "img/contact5.png",
                                             "messages": [
                                               {
                                                 "sender": "me",
@@ -327,7 +327,7 @@ const contatos = { "whats-users" :
                                           {
                                           "name": "Jonny Devited",
                                           "description": "Designer",
-                                          "image": "img/contact5.png",
+                                          "image": "img/contact6.png",
                                           "messages": [
                                               {
                                               "sender": "Jonny Devited",
@@ -354,7 +354,7 @@ const contatos = { "whats-users" :
                                           {
                                           "name": "Shita Ling",
                                           "description": "Product Manager",
-                                          "image": "img/contact6.png",
+                                          "image": "img/contact1.png",
                                           "messages": [
                                               {
                                               "sender": "Shita Ling",
@@ -381,7 +381,7 @@ const contatos = { "whats-users" :
                                           {
                                           "name": "Nilsen Silva",
                                           "description": "Marketing Manager",
-                                          "image": "img/contact7.png",
+                                          "image": "img/contact2.png",
                                           "messages": [
                                               {
                                               "sender": "Nilsen Silva",
@@ -420,7 +420,7 @@ const contatos = { "whats-users" :
                                           {
                                           "name": "Peter Wilsen",
                                           "description": "Engineer",
-                                          "image": "img/contact4.png",
+                                          "image": "img/contact3.png",
                                           "messages": [
                                               {
                                               "sender": "me",
@@ -474,7 +474,7 @@ const contatos = { "whats-users" :
                                           {
                                           "name": "Franklin Silva",
                                           "description": "Product Manager",
-                                          "image": "img/contact6.png",
+                                          "image": "img/contact7.png",
                                           "messages": [
                                               {
                                               "sender": "Franklin Silva",
@@ -501,7 +501,7 @@ const contatos = { "whats-users" :
                                           {
                                           "name": "Catarina Sousa",
                                           "description": "Marketing Manager",
-                                          "image": "img/contact7.png",
+                                          "image": "img/contact1.png",
                                           "messages": [
                                               {
                                               "sender": "Catarina Sousa",
@@ -540,7 +540,7 @@ const contatos = { "whats-users" :
                                           {
                                           "name": "Wally Gator",
                                           "description": "Free",
-                                          "image": "img/contact4.png",
+                                          "image": "img/contact5.png",
                                           "messages": [
                                               {
                                               "sender": "me",
