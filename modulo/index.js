@@ -1,6 +1,6 @@
 const jsonContatos = require('./contatos.js')
 
-const getPerfilId = (id) => {   
+const getPerfilId = (id) => {
 
     let jsonPerfil = {}
     let status = false
@@ -17,7 +17,7 @@ const getPerfilId = (id) => {
     } else {
         return status
     }
-    
+
 }
 
 const getPerfilTelefone = (telefone) => {
@@ -37,10 +37,31 @@ const getPerfilTelefone = (telefone) => {
     } else {
         return status
     }
-    
+
+}
+
+const getImagePerfil = (telefone) => {
+
+    let jsonPerfil = {}
+    let status = false
+
+    jsonContatos.contatos["whats-users"].forEach(perfilDados => {
+        if (perfilDados.number == telefone) {
+            jsonPerfil = perfilDados['profile-image']
+            status = true   
+        }
+    })
+
+    if (status == true) {
+        return jsonPerfil
+    } else {
+        return status
+    }
+
 }
 
 module.exports = {
     getPerfilId,
-    getPerfilTelefone
+    getPerfilTelefone,
+    getImagePerfil
 }

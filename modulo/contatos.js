@@ -10,7 +10,7 @@ const contatos = { "whats-users" :
                                                   "end"   : "null"
                                                 }
                                               ,
-                              "profile-image": "img/contact1.png",
+                              "profile-image": "img/contact3.png",
                               "number" : "11987876567",
                               "background" : "#fccc5b",
                               "contacts": 
@@ -211,7 +211,7 @@ const contatos = { "whats-users" :
                                                   "end"   : "null"
                                                 }
                                               ,
-                              "profile-image": "img/contact2.png",
+                              "profile-image": "img/contact5.png",
                               "number" : "11966578996",
                               "background" : "#fccc5b",
                               "contacts": 
@@ -412,7 +412,7 @@ const contatos = { "whats-users" :
                                                   "end"   : "null"
                                                 }
                                               ,
-                              "profile-image": "img/contact200.png",
+                              "profile-image": "img/contact1.png",
                               "number" : "11955577796",
                               "background" : "#cc5bfc",
                               "contacts": 
@@ -532,7 +532,7 @@ const contatos = { "whats-users" :
                                                   "end"   : "null"
                                                 }
                                               ,
-                              "profile-image": "img/contact230.png",
+                              "profile-image": "img/contact7.png",
                               "number" : "1194457796",
                               "background" : "#c00bfc",
                               "contacts": 
